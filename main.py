@@ -215,9 +215,9 @@ def on_tab_selected(e):
                         label_text.set(palindrome_string + " is a palindrome")
                     else:
                         label_text.set(old_string + " is not a palindrome")
-            palindrome_button = tk.Button(menu.mainframe, text=PALINDROME,
-                                          command=lambda: is_palindrome(text.get()))
-            palindrome_button.grid(row=0, column=2, padx=5, pady=5)
+                palindrome_button = tk.Button(menu.mainframe, text=PALINDROME,
+                                              command=lambda: is_palindrome(text.get()))
+                palindrome_button.grid(row=0, column=2, padx=5, pady=5)
 
         set_text_menu(text_command)
         # -------------------------------------------------------------------------------------------------
